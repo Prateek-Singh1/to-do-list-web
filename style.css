@@ -1,0 +1,187 @@
+.main-box {
+    width: 940px;
+    height: 380px;
+    border: none;
+    margin: 50px 30px 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "adobe-clean", sans-serif;
+    justify-content: center;
+    column-gap: 40px;
+    
+}
+
+.box1 {
+    width: 150px;
+    height: 235px;
+    border: 1.5px solid rgb(247, 50, 16);
+    border-radius: 10px;
+    box-shadow: gray 4px 4px 10px;
+
+}
+
+.head {
+    color: rgb(247, 50, 16);
+
+}
+
+.completed {
+    color: red;
+    text-decoration:2px red line-through ;
+    font-weight: 600;
+}
+
+.task {
+    margin-top: 30px;
+    margin-left: 125px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.list {
+    color: gray;
+    font-weight: 300;
+    font-size: ;
+}
+
+.addlist {
+    color: gray;
+   margin-left:200px;
+   margin-right: 145px;
+   font-size: 25px;
+   font-weight: lighter; 
+}
+
+.bi-plus-square-fill {
+    margin-top: 20px;
+    margin-left: 160px;
+    fill: red;
+    position: absolute;
+    text-decoration: none;
+}
+
+hr {
+   margin-left: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 50, 16);
+}
+
+/* TRIP TO PARIS */
+
+.bi-plus-circle-fill {
+    position: absolute;
+    fill: red;
+    margin-top: 215px;
+    margin-left: -73px;
+}
+
+.paris {
+    width: 250px;
+    height: 245px;
+    border: 1.5px solid rgb(247, 50, 16);
+    border-radius: 10px;
+    box-shadow: gray 4px 4px 10px;
+}
+
+.head2 {
+    margin-top: 10px;
+    position: relative;
+    color: black;
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 350px;
+    margin-right: 380px;
+}
+  
+button {
+    cursor: pointer;
+}
+
+.head2:before{
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid rgb(185, 176, 176);
+    margin-left: -80px;
+    width: 40%;
+    height: 2px;
+    margin-top: 15px;
+}
+
+.head2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid rgb(185, 176, 176);
+    margin-left: -80px;
+    width: 40%;
+    height: 2px;
+    margin-left: 180px;
+    margin-top: -18px;
+}
+
+.bi-arrow-left-square-fill{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 1px;
+
+}
+
+.back {
+    color: red;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* ADD NEW LIST */
+
+.main-box1 {
+    width: 940px;
+    height: 380px;
+    border: none;
+    margin: 50px 30px 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "adobe-clean", sans-serif;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.add-list {
+    position: absolute;
+    width: 250px;
+    height: 145px;
+    margin-top: 115px;
+    border: 1.5px solid rgb(247, 50, 16);
+    border-radius: 10px;
+    box-shadow: grey 4px 4px 10px;
+    background-color: white;
+    
+}
+
+.blank {
+    border: red 1.5px solid;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 3px;
+}
+
+.add {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 43px;
+}
+
+img {
+    z-index: -1;
+    filter: blur(3.5px);
+    width: 940px;
+    margin-top: -40px;
+}
